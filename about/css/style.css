@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+    text-align: center;
+
+}
+.header{
+    width: 100%;
+    height: 100vh;
+    background: url("../img/header.gif") center no-repeat;
+    background-size: cover;
+}
+.logo {
+    padding: 16px 48px;
+}
+p{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 18px;
+    color: #505d68;
+    font-weight: 300;
+    padding-top: 168px;
+    padding-bottom: 168px;
+}
+.bg{
+    background: #f9f9f9;
+}
+.text{
+    display: flex;
+
+}
+h2{
+    padding-top: 50px;
+    padding-left: 40px;
+    font-size: 45px;
+    font-family: 'Open Sans', sans-serif;
+    color: #505d68;
+}
+.copyright {
+    background: #eeeeee;
+    height: 93px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.p_copy{
+    color: #505d68;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    padding-top:43px;
+    padding-bottom: 45px;
+    padding-left: 267px ;
+
+}
+.p_email{
+    color: #505d68;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+    padding-right: 267px ;
+    padding-top:43px;
+    padding-bottom: 45px;
+
+}
